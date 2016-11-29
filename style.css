@@ -1,0 +1,74 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background: #e6f7ff;
+  margin=0;
+}
+
+div {
+  background:  #fff;
+  margin: 10 auto;
+  width: 200px;
+  padding: 10px;
+  text-align: left;
+  
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+}
+
+div:hover {
+    background-color: aliceblue;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100px;
+}
+
+ul li {
+  margin: 100;
+  -webkit-margin-after: 1em;
+}
+
+#head {
+  background: #f2f2f2;
+  padding:10;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  margin: -8;
+}
+
+#counter {
+    font-size: 10px;
+    text-align: center;
+}
+
+.textBlock {
+  text-align: center;
+  margin: 0;
+  line-height: 20px;
+  }
+
+.hImage {
+  width: 40px;
+  high: 40px;
+  float:left;
+  margin:0;
+}
+
+.ocoupon {
+    color: chocolate;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ititle {
+  color: black;
+}

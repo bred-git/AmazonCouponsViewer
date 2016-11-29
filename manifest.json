@@ -1,0 +1,20 @@
+{
+ "name": "Amazon coupons",
+ "description": "Amazon coupons",
+ "version": "1.0",
+ "background": {
+    "persistent": false,
+    "scripts": ["background.js", "jquery.js"]
+  },
+
+ "permissions": [
+  "tabs",
+  "http://codebears.com/releases/deals.json"
+ ],
+ "browser_action": {
+  "default_title": "Amazon coupons",
+  "default_icon": "images/icon.png",
+  "default_popup": "pop.html"
+ },
+  "manifest_version": 2
+}
